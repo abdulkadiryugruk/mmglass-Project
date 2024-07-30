@@ -1,0 +1,1913 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+    animation:.5;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background-image: url(../img/global/mm-body-bg.png);
+    overflow-x: hidden;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: orpheuspro;
+    font-style: normal;
+    font-weight: 400;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>header start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+.ustbar{
+    background-color: white;
+    box-shadow: 0px 1px 10px 1px rgba(199, 199, 199, 0.4);
+    height: 150px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    opacity: .9;
+
+}
+
+.ustbar a img{
+    margin-left: 300px;
+}
+.ustbar .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.ustbar .contact button{ 
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 44px;
+    border: 2px solid #b08f26;
+    color: #b08f26;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.ustbar .contact button:hover{
+    transform: '';
+    background-color: #b08f26;
+    color: white;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>header end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.glass-box .glass-box >box1 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.glass-box .box1 .hebir{
+    font-size: 110px;
+    margin-top: 80px;
+    font-weight: 200;
+    width: 400px;
+    padding-left: 130px;
+
+}
+
+.glass-box .box1 .right .ust{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    display: flex;
+    right: -200px;
+}
+.glass-box .box1 .left .alt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.glass-box .box1 .right{
+    position: relative;
+    left: -80px;
+}
+.glass-box .box1 .right .card{
+    border: none;
+    background-color: transparent;
+}
+.glass-box .box1 .right .card img{
+    border-radius: 350px;
+    width: 600px;
+    height: 750px;
+
+}
+
+ .glass-box .box1 button{ 
+    width: 250px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 44px;
+    margin-top: 50px;
+    border-color: transparent;
+    background-color: #b08f26;
+    color: white;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.glass-box .box1 button:hover{
+    transform: '';
+    background-color: black;
+    transition: .5s;
+}
+.glass-box .box1 .left .alt a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box .glass-box .box1 end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box .box2 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.glass-box .box2{
+    margin-top: 200px;
+}
+.glass-box .box2 .left h1{
+    font-size: 82px;
+    line-height: 1;
+    margin-bottom: 58px;
+    font-weight: 300;
+}
+
+.glass-box .box2 .cizgi{
+    height: 100px;
+    width: 1px;
+    border: 1px solid #b08f26;
+    position: relative;
+    left: 25px;
+}
+.glass-box .box2 .right{
+position: relative;
+right: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.glass-box .box2 .right a{
+    color: #b08f26;
+    font-size: 17px;
+    font-weight: 400;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box .box2 end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box .glass-box .box3 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.glass-box .box3{
+    width: 100%;
+    height: 834px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass-box .box3 .backround{
+height: 833px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.glass-box .box3 .backround .img{
+    width: 1920px;
+    height: 833px;
+    position: relative;
+}
+.glass-box .box3 .backround .kutu{
+    position: absolute;
+    width: 1040px;
+
+    height: 754px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.glass-box .box3 .backround .kutu .top{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 347px;
+    margin-bottom: 50px;
+}
+.glass-box .box3 .backround .kutu .top a{
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+
+
+}
+
+.glass-box .box3 .backround .kutu .top a h5{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;    
+    backdrop-filter: blur(15px);
+    bottom: -200px;
+    padding: 20px;
+    transition: .5s;
+    overflow: hidden;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.glass-box .box3 .backround .kutu .top a h5::before{
+    content: '';
+    transition: .5s;
+}
+.glass-box .box3 .backround .kutu .top a:hover h5{
+    bottom: 0;
+    padding: 140px;
+}
+
+.glass-box .box3 .backround .kutu .top a img{
+    position: relative;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+}
+
+
+
+
+.glass-box .box3 .backround .kutu .bot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 347px;
+    
+}
+.glass-box .box3 .backround .kutu .bot a{
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+}
+
+.glass-box .box3 .backround .kutu .bot a h5{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;    
+    backdrop-filter: blur(15px);
+    bottom: -210px;
+    padding: 20px;
+    transition: .5s;
+    overflow: hidden;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.glass-box .box3 .backround .kutu .bot a h5::before{
+    content: '';
+    transition: .5s;
+}
+.glass-box .box3 .backround .kutu .bot a:hover h5{
+    bottom: 0;
+    padding: 140px;
+}
+
+.glass-box .box3 .backround .kutu .bot a img{
+    position: relative;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+}
+.glass-box .box3 .backround .kutu span {
+    display: none;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box .glass-box .box3 end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box .glass-box .box4 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+ .glass-box .box4{
+    margin-top: 187px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .glass-box .box4 .kutu{
+    max-width: 1341px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    overflow: hidden;
+}
+ .glass-box .box4 .kutu h3{
+    margin-bottom: 50px;
+    padding-top: 84px;
+    font-size: 43px;
+    position: relative;
+    top: -100px;
+}
+ .glass-box .box4 .kutu .mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .glass-box .box4 .kutu .bot .button-box .midler{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: -190px;
+    top: -150px;
+}
+ .glass-box .box4 .kutu .bot .button-box li:nth-child(4) .midler .left svg,
+ .glass-box .box4 .kutu .bot .button-box li:nth-child(3) .midler .left svg,
+ .glass-box .box4 .kutu .bot .button-box li:nth-child(2) .midler .left svg{
+    width: 130px;
+}
+
+
+ .glass-box .box4 .kutu .bot .button-box li:nth-child(4) .midler .left svg path:nth-child(2),
+ .glass-box .box4 .kutu .bot .button-box li:nth-child(3) .midler .left svg path:nth-child(2),
+ .glass-box .box4 .kutu .bot .button-box li:nth-child(2) .midler .left svg path:nth-child(2){
+    color: #b08f26;
+}
+
+
+ .glass-box .box4 .kutu .bot .button-box .midler .left{
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 95px;
+}
+
+ .glass-box .box4 .kutu .bot .button-box .midler .right{
+    width: 826px;
+    height: 180px;
+    font-family: Montserrat;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+ .glass-box .box4 .kutu .bot .button-box .midler .right h4{
+    font-size: 35px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+ .glass-box .box4 .kutu .bot .button-box .midler .right p{
+    font-size: 16px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+ .glass-box .box4 .kutu .bot .button-box .midler h4{
+    font-size: 32px;
+}
+ .glass-box .box4 .kutu .bot{
+width: 600px;
+
+}
+ .glass-box .box4 .kutu .bot .button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    list-style-type: none;
+    padding: 50px;
+
+}
+ .glass-box .box4 .kutu .bot .button-box li {
+    position: relative;
+    z-index: 11;
+}
+ .glass-box .box4 .kutu .bot .button-box li label{
+    position: relative;
+    bottom: -100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 30px;
+
+}
+ .glass-box .box4 .kutu .bot input[type="radio"] {
+    display: none;
+}
+
+ .glass-box .box4 .kutu .bot input[type="radio"] + label {
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+ .glass-box .box4 .kutu .bot input[type="radio"]:checked + label {
+    background-color: #b08f26;
+    color: white;
+}
+ .glass-box .box4 .kutu .bot .cizgi{
+    width: 480px;
+    height: 1px;
+    border: 1px solid white;
+    position: relative;
+    left: 57px;
+    top: 13px;
+    z-index: 10;
+}                                               
+
+
+
+
+
+
+
+
+ .glass-box .box4 .kutu .bot .button-box .midler{
+    display: none;
+}
+
+#button1:checked ~ div{
+    display: flex;
+left: -250px;
+}
+
+#button2:checked ~ div{
+    display: flex;
+    left: -400px;
+}
+
+#button3:checked ~ div{
+    display: flex;
+    left: -550px;
+
+}
+#button4:checked ~ div{
+display: flex;
+left: -700px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box >box4 end<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>> .glass-box >box5 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+.glass-box .box5{
+    width: 100%;
+    margin-top: 187px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 187px;
+}
+ .glass-box .box5 .kutu{
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+ .glass-box .box5 .kutu .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 50px;
+}
+ .glass-box .box5 .kutu .left h2 {
+    font-size: 110px;
+    line-height: 110%;
+    margin-bottom: 75px;
+}
+ .glass-box .box5 .kutu .left a{
+    width: 220px;
+    border: 2px solid #b08f26;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b08f26;
+    background-color: transparent;
+    cursor:pointer;
+    text-decoration: none;
+}
+ .glass-box .box5 .kutu .left a:hover{
+    background-color: #b08f26;
+    color: white;
+    transition: .5s;
+}
+
+
+
+
+ .glass-box .box5 .kutu .right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .glass-box .box5 .kutu .right .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 40px;
+    margin-bottom:50px ;
+    font-family: Montserrat;
+}
+ .glass-box .box5 .kutu .right .top .daire{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(212, 210, 210);
+    backdrop-filter: blur(35px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+ .glass-box .box5 .kutu .right .daire img{
+ width: 90%;
+
+}
+ .glass-box .box5 .kutu .right .top .baslik{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+ .glass-box .box5 .kutu .right .top .baslik h5{
+    font-size: 26px;
+}
+ .glass-box .box5 .kutu .right .metin p{
+    line-height: 1.6;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>.glass-box .glass-box >BOX5 FINISH<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>.glass-box .glass-box >BOX6 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+ .glass-box .box6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 187px;
+}
+ .glass-box .box6 .kutu{
+    max-width: 1040px;
+    width: 100%;
+    height:484px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #eeeeee;
+}
+ .glass-box .box6 .kutu .left{
+    height: 436px;
+    width: 282px;
+    border-radius: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    top: -100px;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+}
+ .glass-box .box6 .kutu .left img{
+    height: 100%;
+}
+
+ .glass-box .box6 .kutu .right .top h4{
+    font-size: 43px;
+}
+
+ .glass-box .box6 .kutu .right .bot button{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 44px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-color: transparent;
+    background-color: #b08f26;
+    color: white;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+ .glass-box .box6 .kutu .right .bot button:hover{
+    transform: '';
+    background-color: black;
+    transition: .5s;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>.glass-box .glass-box >box6 finish<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>mirrors-box start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.mirrors-box .box1{
+    margin-top: 80px;
+}
+.mirrors-box .box1 .hebir{
+    font-size: 90px;
+    margin-top: 100px;
+    font-weight: 200;
+    width: 400px;
+    padding-left: 130px;
+
+}
+
+.mirrors-box .box1 .right .ust{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    display: flex;
+    right: -20px;
+}
+.mirrors-box .box1 .left .alt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.mirrors-box .box1 .right{
+    position: relative;
+    left: 70px;
+}
+.mirrors-box .box1 .right .card{
+    border: none;
+    background-color: transparent;
+}
+.mirrors-box .box1 .right .card img{
+    border-radius: 350px;
+    width: 400px;
+    height: 550px;
+
+}
+
+
+
+
+
+
+.mirrors-box .box3{
+    width: 100%;
+text-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mirrors-box .box3 .backround .kutu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mirrors-box .box3 .backround .kutu .top{
+display: flex;
+}
+.mirrors-box .box3 .backround .kutu .top h3{
+    font-size: 45px;
+}
+
+
+
+
+
+
+.mirrors-box .box3 .backround .kutu .bot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 347px;
+    
+}
+.mirrors-box .box3 .backround .kutu .bot a{
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+}
+
+.mirrors-box .box3 .backround .kutu .bot a h5{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    backdrop-filter: blur(15px);
+    bottom: -210px;
+    padding: 20px;
+    transition: .5s;
+    overflow: hidden;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.mirrors-box .box3 .backround .kutu .bot a h5::before{
+    content: '';
+    transition: .5s;
+}
+.mirrors-box .box3 .backround .kutu .bot a:hover h5{
+    bottom: 0;
+    padding: 140px;
+}
+
+.mirrors-box .box3 .backround .kutu .bot a img{
+    position: relative;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+}
+.mirrors-box .box3 .backround .kutu2{
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+
+.mirrors-box .box3 .backround .kutu2 .baslik1{
+    font-family: 'orpheuspro' ;
+
+    font-size: 56px;
+    font-weight: 400;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.mirrors-box .box3 .backround .kutu2 p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.mirrors-box .box3 .backround .kutu2 a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration:underline;
+}
+.mirrors-box .box3 .backround .kutu2 .baslik2{
+    font-family: 'orpheuspro' ;
+
+    font-size: 56px;
+    font-weight: 100;
+    margin-top: 75px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+
+}
+.mirrors-box .box3 .backround .kutu2 .images{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.mirrors-box .box3 .backround .kutu2 img{
+    height: 230px;
+    width: 504px;
+    border-radius: 20px;
+}
+.mirrors-box .box3 .backround .kutu2 .baslik3{
+    font-family: 'orpheuspro' ;
+
+    font-size: 56px;
+    font-weight: 100;
+    margin-top: 75px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+.mirrors-box .box3 .backround .kutu2 ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>.mirrors-box >BOX6 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+.mirrors-box .box6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 187px;
+    margin-top: 150px;
+}
+.mirrors-box .box6 .kutu{
+    max-width: 1040px;
+    width: 100%;
+    height:484px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #eeeeee;
+}
+.mirrors-box .box6 .kutu .left{
+    height: 436px;
+    width: 282px;
+    border-radius: 248px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    top: -70px;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+}
+.mirrors-box .box6 .kutu .left img{
+    height: 100%;
+}
+
+.mirrors-box .box6 .kutu .right .top h4{
+    font-size: 43px;
+    font-weight: 400;
+    font-family: Montserrat;
+    margin-bottom: 10px;
+}
+.mirrors-box .box6 .kutu .right .top p{
+    font-size: 16px;
+line-height: 1.6;
+}
+
+.mirrors-box .box6 .kutu .right .bot button{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 44px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-color: transparent;
+    background-color: #b08f26;
+    color: white;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.mirrors-box .box6 .kutu .right .bot button:hover{
+    transform: '';
+    background-color: black;
+    transition: .5s;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>.mirrors-box >box6 finish<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.tubs-box >box1 start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.tubs-box .box1{
+    margin-top: 80px;
+}
+.tubs-box .box1 .hebir{
+    font-size: 90px;
+    margin-top: 100px;
+    font-weight: 200;
+    width: 400px;
+    padding-left: 130px;
+
+}
+
+.tubs-box .box1 .right .ust{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    display: flex;
+    right: -20px;
+}
+.tubs-box .box1 .left .alt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.tubs-box .box1 .right{
+    position: relative;
+    left: 70px;
+}
+.tubs-box .box1 .right .card{
+    border: none;
+    background-color: transparent;
+}
+.tubs-box .box1 .right .card img{
+    border-radius: 350px;
+    width: 400px;
+    height: 550px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubs-box .box3{
+    width: 100%;
+}
+.tubs-box .box3 .kutu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.tubs-box .box3 .kutu .up{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+.tubs-box .box3 .kutu h4{
+    position: relative;
+    top: 150px;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    z-index: 1;
+}
+
+.tubs-box .box3 .kutu .mid{
+    position: relative;
+    width: 100%;
+    background-color: #0d0d0f;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40px;
+}
+.tubs-box .box3 .kutu .mid .images{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.tubs-box .box3 .kutu .mid .images a img{
+    width: 316.66px;
+    height: 230px;
+    border-radius: 20px;
+    margin: 10px 2px;
+}
+.tubs-box .box3 .kutu .mid .images a img:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+.tubs-box .box3 .kutu .bot{
+    transform: scale(1, 1) scaleY(-1) !important;
+    width: 100%;
+    position: relative;
+    top: -150px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tubs-box .box6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 187px;
+    margin-top: 150px;
+}
+.tubs-box .box6 .kutu{
+    max-width: 1040px;
+    width: 100%;
+    height:484px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #eeeeee;
+}
+.tubs-box .box6 .kutu .left{
+    height: 436px;
+    width: 282px;
+    border-radius: 248px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    top: -70px;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+}
+.tubs-box .box6 .kutu .left img{
+    height: 100%;
+}
+
+.tubs-box .box6 .kutu .right .top h4{
+    font-size: 43px;
+    font-weight: 400;
+    font-family: Montserrat;
+    margin-bottom: 10px;
+}
+.tubs-box .box6 .kutu .right .top p{
+    font-size: 16px;
+line-height: 1.6;
+}
+
+.tubs-box .box6 .kutu .right .bot button{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 44px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-color: transparent;
+    background-color: #b08f26;
+    color: white;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+.tubs-box .box6 .kutu .right .bot button:hover{
+    transform: '';
+    background-color: black;
+    transition: .5s;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>.tubs-box >box6 finish<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+
+
+
+
+/* about start */
+
+
+.about-box .box1{
+    margin-top: 80px;
+}
+.about-box .box1 .hebir{
+    font-size: 90px;
+    margin-top: 100px;
+    font-weight: 200;
+    width: 400px;
+    padding-left: 130px;
+
+}
+
+.about-box .box1 .right .ust{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    display: flex;
+    right: -20px;
+}
+.about-box .box1 .left .alt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.about-box .box1 .right{
+    position: relative;
+    left: 70px;
+}
+.about-box .box1 .right .card{
+    border: none;
+    background-color: transparent;
+}
+.about-box .box1 .right .card img{
+    border-radius: 350px;
+    width: 400px;
+    height: 550px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-box .box2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-box .box2 .uzun{
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.about-box .box2 .uzun .birinci{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    font-size: inherit;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+}
+
+.about-box .box2 .uzun .birinci .sol{
+    width: 520px;
+    height: 650px;
+    border-radius: 20px;
+}
+.about-box .box2 .uzun .birinci .sol img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.about-box .box2 .uzun .birinci .sag{
+    position: relative;
+    margin-left: 50px;
+}
+
+
+.about-box .box2 .uzun .ikinci ul{
+box-sizing: border-box;
+font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+.about-box .box2 .uzun .baslik1{
+    font-size: 43px;
+    font-weight: 300;
+    font-family: orpheuspro;
+    font-style: normal;
+    font-weight: 400;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 30px;
+}
+.about-box .box2 .uzun .ucuncu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-box .box2 .uzun .ucuncu .ust{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+.about-box .box2 .uzun .ucuncu .ust .img{
+    width: 520px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-box .box2 .uzun .ucuncu .ust .img img{
+    height: 100%;
+}
+.about-box .box2 .uzun .ucuncu .ust p{
+    display: flex;
+    align-self: center;
+    position: relative;
+    left: -70px;
+}
+.about-box .box2 .uzun .ucuncu .orta{
+    margin: 30px 0;
+    box-sizing: inherit;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+.about-box .box2 .uzun .ucuncu .alt{
+    width: 100%;
+    border-radius: 60px;
+    overflow: hidden;
+}
+.about-box .box2 .uzun .ucuncu .alt img{
+    width: 100%;
+    border-radius: 20px;
+}
+.about-box .box2 .uzun .ucuncu .bottle h6{
+    margin-top: 50px;
+    font-size: 26px;
+    font-family: orpheuspro;
+    font-style: normal;
+    font-weight: 400;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+}
+.about-box .box2 .uzun .ucuncu .bottle p{
+    margin-top: 15px;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+
+
+.about-box .box6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+ .about-box .box6 .kutu{
+    max-width: 1040px;
+    width: 100%;
+    height:484px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #eeeeee;
+}
+ .about-box .box6 .kutu .left{
+    height: 436px;
+    width: 282px;
+    border-radius: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    top: -100px;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+}
+ .about-box .box6 .kutu .left img{
+    height: 100%;
+}
+
+ .about-box .box6 .kutu .right .top h4{
+    font-size: 43px;
+}
+
+ .about-box .box6 .kutu .right .bot button{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 44px;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-color: transparent;
+    background-color: #b08f26;
+    color: white;
+    box-shadow: 2px 4px 30px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+ .about-box .box6 .kutu .right .bot button:hover{
+    transform: '';
+    background-color: black;
+    transition: .5s;
+}
+
+
+.about-box .box3{
+    width: 100%;
+text-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.about-box .box3 .backround .kutu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-box .box3 .backround .kutu .top{
+display: flex;
+}
+.about-box .box3 .backround .kutu .top h3{
+    font-size: 45px;
+}
+
+
+
+
+
+
+.about-box .box3 .backround .kutu .bot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 347px;
+    
+}
+.about-box .box3 .backround .kutu .bot a{
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+    margin: 0 50px;
+}
+
+.about-box .box3 .backround .kutu .bot a h5{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;    
+    backdrop-filter: blur(15px);
+    bottom: -210px;
+    padding: 20px;
+    transition: .5s;
+    overflow: hidden;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.about-box .box3 .backround .kutu .bot a h5::before{
+    content: '';
+    transition: .5s;
+}
+.about-box .box3 .backround .kutu .bot a:hover h5{
+    bottom: 0;
+    padding: 140px;
+}
+
+.about-box .box3 .backround .kutu .bot a img{
+    position: relative;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* resources start */
+
+
+
+
+.resources-box .box1{
+    margin-top: 80px;
+}
+.resources-box .box1 .hebir{
+    font-size: 90px;
+    margin-top: 100px;
+    font-weight: 200;
+    width: 400px;
+    padding-left: 130px;
+
+}
+
+.resources-box .box1 .right .ust{
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    display: flex;
+    right: -20px;
+}
+.resources-box .box1 .left .alt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.resources-box .box1 .right{
+    position: relative;
+    left: 70px;
+}
+.resources-box .box1 .right .card{
+    border: none;
+    background-color: transparent;
+}
+.resources-box .box1 .right .card img{
+    border-radius: 350px;
+    width: 400px;
+    height: 550px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resources-box .box3{
+    width: 100%;
+text-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.resources-box .box3 .backround .kutu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resources-box .box3 .backround .kutu .bot{
+    width: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 347px;
+    
+}
+.resources-box .box3 .backround .kutu .bot a{
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 4px 6px 30px rgba(0, 0, 0, .2);
+    margin: 0 50px;
+}
+
+.resources-box .box3 .backround .kutu .bot a h5{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;    
+    backdrop-filter: blur(15px);
+    bottom: -210px;
+    padding: 20px;
+    transition: .5s;
+    overflow: hidden;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.resources-box .box3 .backround .kutu .bot a h5::before{
+    content: '';
+    transition: .5s;
+}
+.resources-box .box3 .backround .kutu .bot a:hover h5{
+    bottom: 0;
+    padding: 140px;
+}
+
+.resources-box .box3 .backround .kutu .bot a img{
+    position: relative;
+    height: 347px;
+    width: 230px;
+    border-radius: 115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .kutu{
+    max-width: 1040px;
+    height: 386px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .kutu .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .kutu .top .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+footer .kutu .top .left .logo{
+    margin-right: 73px;
+}
+footer .kutu .top .left .showroom{
+    width: 178px;
+    height: 53px;
+    border-radius: 15px;
+    border: 1px solid #b08f26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    padding: 11px 19px;
+    box-sizing: border-box;
+}
+footer .kutu .top .left .showroom p{
+    margin: 0;
+}
+footer .kutu .top .left .showroom:first-child{
+    font-weight: 600;
+    line-height: 14.4px;
+}
+    footer .kutu .top .left .showroom:last-child{
+        font-weight: 500;
+        line-height: 14.4px;
+    }
+footer .kutu .top ul{
+    width: 218px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}footer .kutu .top ul li{
+    font-size: 20px;
+}
+footer .kutu .top ul li:hover{
+    color: #b08f26;
+}
+
+footer .kutu .mid{
+    width: 100%;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .kutu .mid .sol{
+    position: relative;
+    top: 15px;
+    font-size: 18px;
+    line-height: 25px;
+}
+footer .kutu .mid ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .kutu .mid ul li{
+    cursor: pointer;
+line-height: 25px;
+}
+footer .kutu .mid ul li:hover h2{
+    color: #b08f26;
+}
+footer .kutu .mid ul li h2{
+    font-size: 20px;
+}
+footer .kutu .cizgi{
+    width: 100%;
+    height: 1px;
+    border: 1px solid #b08f26;
+    margin-top:30px ;
+}
+footer .kutu .bot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:38px ;
+}
+footer .kutu .bot .right{
+    cursor: pointer;
+    color: white;
+    display: flex;
+}
+footer .kutu .bot .right h5:hover{
+    color: #b08f26;
+}
+
+footer .kutu .bot .right h5{
+    margin-left: 6px;
+    color: tomato;
+    text-decoration:underline;
+}
+

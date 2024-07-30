@@ -1,0 +1,877 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    /* body {
+        padding-top: 152px;
+    } */
+    html {
+        overflow-x: hidden;
+    }
+    .ustbar{
+        width: 100% !important; 
+        margin-bottom: 20px !important;
+        opacity: 1;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 150px;
+    }
+.ustbar a img{
+    margin: 0;
+}
+.ustbar .contact{
+    display: none;
+}
+.telefon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b08f26;
+}
+.telefon i{
+    color: #b08f26;
+}
+
+.navul{
+ background: url(../img/global/mm-body-bg.png);
+ height: 100vh;
+ width: 110%;
+ position: relative;
+ left: -30px;
+top: 49px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ font-size: 30px;
+ padding-bottom: 250px;
+}
+
+.navbar-toggler{
+    border: 2px solid #b08f26;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b08f26;
+}
+.navbar-toggler span{
+    color: #b08f26;
+}
+/* glass box1 start */
+
+.glass-box .box1 .hebir{
+    margin-top: 0;
+    font-size: 61px;
+    padding: 0;
+    margin-bottom: 400px;
+}
+.glass-box .box1 .left{
+    width: 100%;
+justify-content: space-between;
+}
+.glass-box .box1 .right{
+position: absolute;
+margin-top: 185px;
+left: 10%;
+
+}
+.glass-box .box1 .right .ust{
+    right:-80px ;
+    top: -20px;
+    width: 316px;
+    height: 267px;
+}
+.glass-box .box1 .right .card{
+    width: 315px;
+    height: 386px;
+}
+.glass-box .box1 .right .card img{
+    width: 100%;
+    height: 100%;
+
+}
+/* glass box1 end */
+
+/* glass box2 start */
+
+
+.glass-box .box2{
+    margin-top: 0px;
+}
+.glass-box .box2 .left h1{
+    font-size: 50px;
+    font-weight: 200 !important;
+
+}
+.glass-box .box2 .right{
+    display: flex;
+    flex-direction: column;
+right: 28px;
+align-items: start;
+
+}
+.glass-box .box2 .right .cizgi{
+    width: 100%;
+    height: 2px;
+    margin: 15px 0 15px 0;
+}
+.glass-box .box2 .right a{
+    margin-left:25px ;
+}
+
+/* glass box2 end */
+
+
+/* glass box3 start */
+.glass-box .box3 .backround .kutu span {
+    display: block;
+}
+.glass-box .box3 .backround .kutu .top{
+width: 50vh;
+padding-left: 220px;
+margin: 0;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+overflow-x: scroll !important;
+
+}
+.glass-box .box3 .backround .kutu .top a{
+    height: 265px;
+    width: 175px;
+    margin-right: 20px;
+    
+
+}
+.glass-box .box3 .backround .kutu .top a h5{
+    font-size: 26px;
+    height: 265px;
+    width: 166px;
+    bottom: -150px;
+
+}
+.glass-box .box3 .backround .kutu .top a img{
+    height: 100%;
+}
+
+
+
+
+
+
+.glass-box .box3 .backround .kutu .bot{
+    width: 50vh;
+    padding-left: 220px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: scroll !important;
+    
+    }
+    .glass-box .box3 .backround .kutu .bot a{
+        height: 265px;
+        width: 175px;
+        margin-right: 20px;
+        
+    
+    }
+    .glass-box .box3 .backround .kutu .bot a h5{
+        font-size: 26px;
+        height: 265px;
+        width: 166px;
+        bottom: -150px;
+    
+    }
+    .glass-box .box3 .backround .kutu .bot a img{
+        height: 100%;
+    }
+    
+
+/* glass box3 end */
+
+
+
+/* glass box4 start */
+
+.glass-box .box4 .kutu{
+    height: 850px;
+    width: 100vh;
+    border-radius: 0;
+}
+.glass-box .box4 .kutu h3{
+    padding: 0;
+    width: 90%;
+    text-align: center;
+    left: 3%;
+    position: relative;
+    top: -250px !important;
+    padding-top: 50px;
+
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+.glass-box .box4 .kutu .bot .button-box .midler{
+    text-align: center;
+    flex-direction: column !important;
+    padding-left: 355px;
+    top: -390px;
+}
+.glass-box .box4 .kutu .bot .button-box .midler .left{
+    margin: 0px 20px 20px 0;
+
+}
+.glass-box .box4 .kutu .bot .button-box .midler .right{
+    width: 350px;
+}
+.glass-box .box4 .kutu .bot{
+    width: 50vh;
+    }
+  
+    
+    .glass-box .box4 .kutu .bot .button-box li label{
+        margin: 0 40px;
+        position: relative;
+        top: 250px;
+    }
+    .glass-box .box4 .kutu .bot .cizgi{
+        width: 320px;
+        left: 48px;
+        top: 160px;
+    }
+
+
+
+    .glass-box .box4 .kutu .bot .button-box .midler{
+        display: none;
+    }
+    
+    #button1:checked ~ div{
+        display: flex;
+    left: -305px;
+    }
+    
+    #button2:checked ~ div{
+        display: flex;
+        left: -425px;
+    }
+    
+    #button3:checked ~ div{
+        display: flex;
+        left: -540px;
+    
+    }
+    #button4:checked ~ div{
+    display: flex;
+    left: -650px;
+    }
+/* glass box4 end */
+
+
+
+/* glass box5 start */
+.glass-box .box5{
+    margin-top: 100px;
+}
+.glass-box .box5 .kutu .left{
+    width: 100% !important;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+    margin-bottom: 50px;
+}
+.glass-box .box5 .kutu .left a{
+    text-align: center;
+}
+.glass-box .box5 .kutu .left h2 {
+    font-size: 61px;
+    text-align: center;
+
+}
+.glass-box .box5 .kutu .right{
+    position: absolute;
+    width: 80%;
+}
+.glass-box .box5 .kutu .right .metin{
+    margin-bottom: 50px;
+}
+.glass-box .box5 .kutu .right .top{
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+left: 0;
+padding: 0;
+margin-top: 150px;
+}
+.glass-box .box5 .kutu .right .top .daire{
+    margin: 0;
+}
+.glass-box .box5 .kutu .right .top .baslik{
+margin-top: 20px;
+align-items: center;
+}
+
+
+
+
+
+
+/* glass box5 end */
+
+
+
+/* glass box6 start */
+.glass-box .box6 .kutu{
+    height: 760px;
+    width: 90%;
+    flex-direction: column;
+
+}
+
+.glass-box .box6 .kutu .left{
+    width: 220px ;
+    height: 340px ;
+}
+.glass-box .box6 .kutu .right{
+    width: 80%;
+    position: relative;
+    top: -60px;
+}
+.glass-box .box6 .kutu .right .top h4{
+margin-bottom: 20px;
+}
+.glass-box .box6 .kutu .right .bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* glass box6 end */
+
+
+/* footer start */
+
+footer{
+    height: 75vh;
+}
+footer .kutu{
+    height: 100%;
+}
+footer .kutu .top{
+    flex-direction: column;
+    height: 70%;
+    position: relative;
+    margin-top: 15px;
+}
+footer .kutu .top .left{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer .kutu .top .left .logo{
+margin: 0;
+margin-bottom: 40px;
+}
+footer .kutu .top ul{
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+footer .kutu .mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    margin-bottom: 100px;
+}
+footer .kutu .mid ul{
+    width: 90%;
+    padding-left: 0;
+}
+footer .kutu .mid ul li{
+margin-bottom: 20px;
+text-align: center;
+margin-right: 3px;
+}
+footer .kutu .mid .sol{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer .kutu .bot{
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .kutu .bot .right{
+    margin-top: 5px;
+}
+
+
+
+
+/* footer end */
+
+
+/*--------------------------------------------------------------------------------------->glass-box enddd<---------------------- */
+
+
+
+
+/* mirror start */
+
+
+/* mirror box1 start */
+
+.mirrors-box .box1 .hebir{
+    margin-top: 0;
+    font-size: 61px;
+    padding: 0;
+}
+.mirrors-box .box1 .left{
+    width: 100%;
+}
+.mirrors-box .box1 .left .alt{
+    width: 90%;
+    margin-left: 5px;
+}
+.mirrors-box .box1 .right{
+left: 10%;
+
+}
+.mirrors-box .box1 .right .ust{
+    right:-80px ;
+    top: -700px;
+    width: 316px;
+    height: 267px;
+position: absolute;
+}
+.mirrors-box .box1 .right .card{
+    width: 315px;
+    height: 386px;
+}
+.mirrors-box .box1 .right .card img{
+    width: 100%;
+    height: 100%;
+
+}
+/* mirrors box1 end */
+
+
+/* mirrors box3 start */
+.mirrors-box .box3 .backround .kutu .top h3{
+    font-size: 29px;
+    margin-top: 50px;
+}
+.mirrors-box .box3 .backround .kutu .bot{
+    width: 50vh;
+    padding-left: 220px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: scroll !important;
+    
+    }
+    .mirrors-box .box3 .backround .kutu .bot a{
+        height: 265px;
+        width: 175px;
+        margin-right: 20px;
+        
+    
+    }
+    .mirrors-box .box3 .backround .kutu .bot a h5{
+        font-size: 26px;
+        height: 265px;
+        width: 166px;
+        bottom: -150px;
+    
+    }
+    .mirrors-box .box3 .backround .kutu .bot a img{
+        height: 100%;
+    }
+    
+    .mirrors-box .box3 .backround .kutu2{
+        margin-left: 35px;
+        width: 85%;
+    }
+.mirrors-box .box3 .backround .kutu2 .images{
+    flex-wrap:wrap; 
+    height:500px ;
+}
+    .mirrors-box .box3 .backround .kutu2 img{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+.mirrors-box .box3 .backround .kutu2 .baslik1{
+    font-size: 43px;
+    margin-left: 3%;
+}
+.mirrors-box .box3 .backround .kutu2 .baslik2{
+        font-size: 43px;
+    margin-left: 3%;
+
+    }
+
+    .mirrors-box .box3 .backround .kutu2 .baslik3{
+        margin-top: 0px;
+        font-size: 35px;
+        font-family: 'Montserrat';
+    margin-left: 3%;
+
+    }
+
+
+/* mirrors box3 end */
+
+/* mirrors box6 start */
+
+.mirrors-box .box6 .kutu{
+    height: 760px;
+    width: 90%;
+    flex-direction: column;
+
+}
+
+.mirrors-box .box6 .kutu .left{
+    width: 220px ;
+    height: 340px ;
+}
+.mirrors-box .box6 .kutu .right{
+    width: 80%;
+    position: relative;
+    top: -60px;
+}
+.mirrors-box .box6 .kutu .right .top h4{
+margin-bottom: 20px;
+}
+.mirrors-box .box6 .kutu .right .bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* mirrors box6 end */
+
+
+/* --------------------------------------------------------------------------------------->mirrors-box enddd<----------------------  */
+
+/* tubs start */
+
+
+.tubs-box .box1 .hebir{
+    margin-top: 0;
+    font-size: 61px;
+    padding: 0;
+}
+.tubs-box .box1 .left{
+    width: 100%;
+}
+.tubs-box .box1 .left .alt{
+    width: 90%;
+    margin-left: 5px;
+}
+.tubs-box .box1 .right{
+left: 10%;
+
+}
+.tubs-box .box1 .right .ust{
+    right:-80px ;
+    top: -500px;
+    width: 316px;
+    height: 267px;
+position: absolute;
+}
+.tubs-box .box1 .right .card{
+    width: 315px;
+    height: 386px;
+}
+.tubs-box .box1 .right .card img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.tubs-box .box3 .kutu{
+    width: 110%;
+    left: -20px;
+}
+
+
+.tubs-box .box3 .kutu .up{
+top: 50px;
+}
+.tubs-box .box3 .kutu .mid{
+    padding-left: 10%;
+}
+
+
+
+
+.tubs-box .box6 .kutu{
+    height: 760px;
+    width: 90%;
+    flex-direction: column;
+
+}
+
+.tubs-box .box6 .kutu .left{
+    width: 220px ;
+    height: 340px ;
+}
+.tubs-box .box6 .kutu .right{
+    width: 80%;
+    position: relative;
+    top: -60px;
+}
+.tubs-box .box6 .kutu .right .top h4{
+margin-bottom: 20px;
+}
+.tubs-box .box6 .kutu .right .bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --------------------------------------------------------------------------------------->tubs-box enddd<----------------------  */
+
+/* about start */
+
+.about-box .box1{
+    margin-bottom: 50px;
+}
+.about-box .box1 .hebir{
+    margin-top: 0;
+    font-size: 61px;
+    padding: 0;
+}
+.about-box .box1 .left{
+    width: 100%;
+}
+.about-box .box1 .left .alt{
+    width: 90%;
+    margin-left: 5px;
+}
+.about-box .box1 .right{
+left: 10%;
+
+}
+.about-box .box1 .right .ust{
+    right:-80px ;
+    top: -550px;
+    width: 316px;
+    height: 267px;
+position: absolute;
+}
+.about-box .box1 .right .card{
+    width: 315px;
+    height: 386px;
+}
+.about-box .box1 .right .card img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.about-box .box2{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.about-box .box2 .uzun .birinci{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-box .box2 .uzun .birinci .sol{
+    height:500px ;
+}
+.about-box .box2 .uzun .birinci .sag{
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+.about-box .box2 .uzun .ucuncu{
+    width: 90%;
+}
+.about-box .box2 .uzun .ucuncu .ust{
+    flex-direction: column;
+}
+.about-box .box2 .uzun .ucuncu .ust .img{
+    width: 100%;
+    height: 210px;
+}
+.about-box .box2 .uzun .ucuncu .ust p{
+    left: 0;
+}
+
+
+.about-box .box6 .kutu{
+    height: 760px;
+    width: 90%;
+    flex-direction: column;
+
+}
+
+.about-box .box6 .kutu .left{
+    width: 220px ;
+    height: 340px ;
+}
+.about-box .box6 .kutu .right{
+    width: 80%;
+    position: relative;
+    top: -60px;
+}
+.about-box .box6 .kutu .right .top h4{
+margin-bottom: 20px;
+}
+.about-box .box6 .kutu .right .bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* about box3 start */
+.about-box .box3 .backround .kutu .top h3{
+    font-size: 29px;
+    margin-top: 50px;
+}
+.about-box .box3 .backround .kutu .bot{
+    width: 50vh;
+    padding-left: 220px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: scroll !important;
+    
+    }
+    .about-box .box3 .backround .kutu .bot a{
+        height: 265px;
+        width: 175px;
+        margin-right: 20px;
+        
+    
+    }
+    .about-box .box3 .backround .kutu .bot a h5{
+        font-size: 26px;
+        height: 265px;
+        width: 166px;
+        bottom: -150px;
+    
+    }
+    .about-box .box3 .backround .kutu .bot a img{
+        height: 100%;
+    }
+
+/* --------------------------------------------------------------------------------------->about-box enddd<----------------------  */
+
+/* resources start */
+
+
+.resources-box .box1{
+    margin-bottom: 50px;
+}
+.resources-box .box1 .hebir{
+    margin-top: 0;
+    font-size: 61px;
+    padding: 0;
+}
+.resources-box .box1 .left{
+    width: 100%;
+}
+.resources-box .box1 .left .alt{
+    width: 90%;
+    margin-left: 5px;
+}
+.resources-box .box1 .right{
+left: 10%;
+
+}
+.resources-box .box1 .right .ust{
+    right:-80px ;
+    top: -320px;
+    width: 316px;
+    height: 267px;
+position: absolute;
+}
+.resources-box .box1 .right .card{
+    width: 315px;
+    height: 386px;
+}
+.resources-box .box1 .right .card img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.resources-box .box3 .backround .kutu .top h3{
+    font-size: 29px;
+    margin-top: 50px;
+}
+.resources-box .box3 .backround .kutu .bot{
+    width: 50vh;
+    padding-left: 220px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: scroll !important;
+    
+    }
+    .resources-box .box3 .backround .kutu .bot a{
+        height: 265px;
+        width: 175px;
+        margin-right: 20px;
+        
+    
+    }
+    .resources-box .box3 .backround .kutu .bot a h5{
+        font-size: 26px;
+        height: 265px;
+        width: 166px;
+        bottom: -150px;
+    
+    }
+    .resources-box .box3 .backround .kutu .bot a img{
+        height: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
